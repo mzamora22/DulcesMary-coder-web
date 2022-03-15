@@ -1,0 +1,268 @@
+*{
+    padding: 10;
+    margin: 20;
+    box-sizing: border-box ;
+}
+
+header {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(253, 232, 247);
+}
+
+nav {
+    display : inline-flex
+}
+
+nav a {
+    color: rgb(209, 46, 73);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+} 
+
+nav ul{
+    list-style: none;
+    display : inline-flex
+}
+
+
+nav li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: violet;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Courgette', cursive;
+    text-decoration: underline;
+}
+
+form {
+    display: grid;
+    padding: 20px;
+    background-color: #e9967a36;
+    border-radius: 1%;
+
+}
+
+form input, textarea  {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form textarea {
+    height: 40px;
+}
+
+form input {
+    height: 30px;
+}
+
+form button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 90px;
+}
+
+.textodestacado {
+    font-size: 30px;
+    font-weight: 70%;
+    font-family: cursive;
+    color:black
+}
+
+.parrafoinicial {
+    font-size: 20px;
+    font-style:italic 
+
+}
+
+section {
+    margin: 20px 20px 20px 20px;
+    
+}
+
+.seccion-principal {
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/fotoprincipal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:left;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 50px 50px 50px;
+  
+}
+
+.seccion-principal .cuerpo-seccion {
+    padding: 40px;
+    background: rgb(252 249 249 / 61%);
+    width: 500px;
+    border-radius: 15px;
+
+}
+
+.seccion-principal .cuerpo-seccion h1 {
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+    color: violet;
+    margin-top: 0px;   
+}
+
+.seccion-principal-galeria  {
+    background-image: url(../img/fondoinfantil.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 50px;
+ 
+}
+
+  
+.seccion-principal .cuerpo-galeria{
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+    color: violet;
+    margin-top: 0px;   
+}
+.seccion-principal-cuerpo-galeria h2{
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+    color: violet;
+    margin-top: 0px;   
+    text-align: center;
+}
+.seccion-principal-recetas{
+    background-image:url(../img/tortachocolate.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 50px;
+
+}
+.seccion-principal-cuerpo-recetas{
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+    color: violet;
+    margin-top: 0px;   
+    text-align: center;
+}
+.seccion-secundaria {
+    border: violet;
+    border-style: solid;
+    border-radius: 0.5%;
+}
+ 
+.seccion-secundaria .cabecera-seccion {
+    background: violet;
+    padding: 20px;
+    color: white;
+}
+
+.parrafogaleria{
+    text-align:left ;
+    font-size: 20px;
+    font-style:italic 
+}   
+
+.seccion-secundaria .cuerpo-seccion {
+    padding: 20px;
+    
+
+}
+
+.foto{
+    width: 300px;
+    padding: 1rem;
+    background-color:white;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.foto img {
+    width: 100%;
+}
+
+.foto h4 {
+    text-align: center;
+}
+
+.justificado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .redessociales__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+}
+
+@media screen and (max-width : 600px) {
+    header {
+        display: block;
+        text-align: center;
+    }
+    header img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav li {
+        margin-bottom: 10px;
+    }
+
+    .seccion-principal .cuerpo-seccion  {
+        width: 100%;
+    }
+
+    .seccion-principal .cuerpo-seccion h1 {
+        font-size: 50px;
+    }
+
+    .justificado {
+        display: block;
+    }
+
+    .foto {
+        width: 100%;
+    }
+}
