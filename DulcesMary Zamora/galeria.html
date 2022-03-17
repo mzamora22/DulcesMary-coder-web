@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,500;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Permanent+Marker&family=Roboto:ital,wght@0,100;0,500;1,300&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -38,15 +40,14 @@
     </header>
     <main>
         <section class="seccion-principal-galeria">
-            <div class="cuerpo-galeria">
-                <h2>GALERIA DE FOTOS</h2>
-                <p class="parrafoinicial">
-                    Revisa nuestra galeria de fotos con los mas increibles diseños personalizados de tortas y cupcakes 
-                    para que brilles en tus celebraciones y eventos
-                </p>
-              
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Galeria de Fotos</h5>
+                  <p class="card-text">Revisa nuestra galeria de fotos, con los mas increibles diseños personalizados de tortas y cupcakes, para que brilles en tus celebraciones y eventos..</p>
+                </div>
             </div>
-
+              
+         
         </section>
         <section class="seccion-secundaria">
             <div class="cabecera-seccion">
@@ -57,40 +58,34 @@
             </div>
                                
             <div class="cuerpo-seccion justificado">
-                <div class="foto">
-                    <div>
-                        <h4>Torta Super Heroes</h4>
-                        <img src="img/tortas infantiles/superheroes.png" alt="">
-
+                <div class="card" style="width: 18rem;">
+                    <img src="img/tortas infantiles/superheroes.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Torta de superheroes creada con los personajes favoritos de los pequeños de la casa.</p>
                     </div>
-                   
                 </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="img/tortas infantiles/bobesponja.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Linda torta de Bob Esponja para los fans de este divertido personaje.</p>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="img/tortas infantiles/freefire.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Torta Free Fire para los fanaticos de este famoso juego.</p>
+                    </div>
+                </div>
+
                 
-                <div  class="foto">
-                    <div>
-                        <h4>Torta Bob Esponja</h4>
-                        <img src="img/tortas infantiles/bobesponja.png" alt="">
-
+                <div class="card" style="width: 18rem;">
+                    <img src="img/tortas infantiles/granja.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Torta de la Granja para los mas chiquitines.</p>
                     </div>
-        
                 </div>
-                <div  class="foto">
-                    <div>
-                        <h4>Torta Free Fire</h4>
-                        <img src="img/tortas infantiles/freefire.png" alt="">
-
-                    </div>
-                    
-                </div>
-                <div  class="foto">
-                    <div>
-                        <h4>Torta de la Granja</h4>
-                        <img src="img/tortas infantiles/granja.png" alt="">
-
-                    </div>
-        
-                </div>    
-
             </div>
 
         </section>
@@ -102,36 +97,50 @@
                           
             </div>
             <div>
-                <div class="cuerpo-seccion justificado">
-
-                    <div class="foto">
-                        <h4>Cupckaes Unicornio</h4>
-                        <img src="img/cupcakes/unicornio.png" alt="">
+                <div class="row row-cols-1 row-cols-md-3 g-4 p-4">
+                    <div class="col">
+                      <div class="card h-100">
+                        <h5 class="card-title">Cupcakes Unicornio</h5>
+                        <img src="img/cupcakes/unicornio.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <p>Lindos cupcakes de unicornio para complacer a Elisa en su cumpleaños</p>
                         
-                    </div>
-                    <div class="foto">
-                        <div>
-                            <h4>Cupcakes Corazon</h4>
-                            <p>Para esa persona especial</p>
-                            <img src="img/cupcakes/corazon.png" alt="">
-
                         </div>
-
-                    </div>
-
-                    <div class="foto">
-                        <div>
-                            <h4>Cupcakes con Flores</h4>
-                            <img src="img/cupcakes/15años.png" alt="">
-
+                        <div class="card-footer">
+                          <small class="text-muted">Ultima actualización hace 2 días</small>
                         </div>
-
+                      </div>
                     </div>
-
+                    <div class="col">
+                      <div class="card h-100">
+                        <h5 class="card-title">Cupcakes de Corazón</h5>
+                        <img src="img/cupcakes/corazon.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <p class="card-text">Para esa persona especial y endulzarle el dia.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Ultima actualización hace 2 días </small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-100">
+                        <h5 class="card-title">Cupcakes tropicales</h5>
+                        <img src="img/cupcakes/15años.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <p class="card-text">Lindos cupcakes al mejor estilo tropical para tu mesa de quince años, matrimonio o cumpleaños al aire libre.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Ultima actualización hace 2 días</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
 
                        
                     
-                </div>
+                
 
             </div>
            
@@ -149,6 +158,8 @@
         </div>
     
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 
 
