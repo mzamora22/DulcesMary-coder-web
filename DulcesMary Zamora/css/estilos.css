@@ -16,7 +16,6 @@ header img {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     background-color: rgb(253, 232, 247);
 }
 
@@ -42,45 +41,6 @@ nav ul{
 nav li {
     list-style: none;
     margin-left: 10px;
-}
-
-h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
-    color: violet;
-}
-
-h3, h4, h5, h6 {
-    font-family: 'Courgette', cursive;
-    text-decoration: underline;
-}
-
-form {
-    display: grid;
-    padding: 20px;
-    background-color: #e9967a36;
-    border-radius: 1%;
-
-}
-
-form input, textarea  {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-form textarea {
-    height: 40px;
-}
-
-form input {
-    height: 30px;
-}
-
-form button {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 40px;
-    width: 90px;
 }
 
 .textodestacado {
@@ -121,14 +81,7 @@ section {
     border-radius: 15px;
 
 }
-
-.seccion-principal .cuerpo-seccion h1 {
-    font-size: 60px;
-    font-family: 'Courgette', cursive;
-    color: violet;
-    margin-top: 0px;   
-}
-
+         
 .seccion-principal-galeria  {
     background-image: url(../img/fondoinfantil.jpg);
     width: 100%;
@@ -175,6 +128,8 @@ section {
     margin-top: 0px;   
     text-align: center;
 }
+
+
 .seccion-secundaria {
     border: violet;
     border-style: solid;
@@ -222,6 +177,8 @@ section {
     justify-content: space-between;
 }
 
+
+
 footer {
     text-align: center;
 }
@@ -230,40 +187,4 @@ footer .redessociales__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px;
-}
-
-@media screen and (max-width : 600px) {
-    header {
-        display: block;
-        text-align: center;
-    }
-    header img {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-    nav ul {
-        display: block;
-    }
-
-    nav li {
-        margin-bottom: 10px;
-    }
-
-    .seccion-principal .cuerpo-seccion  {
-        width: 100%;
-    }
-
-    .seccion-principal .cuerpo-seccion h1 {
-        font-size: 50px;
-    }
-
-    .justificado {
-        display: block;
-    }
-
-    .foto {
-        width: 100%;
-    }
 }
